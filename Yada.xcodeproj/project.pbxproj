@@ -22,6 +22,13 @@
 		50ABD895185929F5001AA432 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50ABD874185929F5001AA432 /* UIKit.framework */; };
 		50ABD89D185929F5001AA432 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 50ABD89B185929F5001AA432 /* InfoPlist.strings */; };
 		50ABD89F185929F5001AA432 /* YadaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABD89E185929F5001AA432 /* YadaTests.m */; };
+		50ABD8B018593AFF001AA432 /* YADALine.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABD8AF18593AFF001AA432 /* YADALine.m */; };
+		50ABD8B318593B24001AA432 /* YADACanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABD8B218593B24001AA432 /* YADACanvas.m */; };
+		50ABD8B618594F9B001AA432 /* YADASettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50ABD8B518594F9B001AA432 /* YADASettingsViewController.m */; };
+		50ABD8C9185980F3001AA432 /* ipad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50ABD8C5185980F3001AA432 /* ipad_icon.png */; };
+		50ABD8CA185980F3001AA432 /* ipad_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50ABD8C6185980F3001AA432 /* ipad_icon@2x.png */; };
+		50ABD8CB185980F3001AA432 /* iphone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 50ABD8C7185980F3001AA432 /* iphone_icon.png */; };
+		50ABD8CC185980F3001AA432 /* iphone_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50ABD8C8185980F3001AA432 /* iphone_icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,16 @@
 		50ABD89A185929F5001AA432 /* YadaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YadaTests-Info.plist"; sourceTree = "<group>"; };
 		50ABD89C185929F5001AA432 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		50ABD89E185929F5001AA432 /* YadaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YadaTests.m; sourceTree = "<group>"; };
+		50ABD8AE18593AFF001AA432 /* YADALine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YADALine.h; sourceTree = "<group>"; };
+		50ABD8AF18593AFF001AA432 /* YADALine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YADALine.m; sourceTree = "<group>"; };
+		50ABD8B118593B24001AA432 /* YADACanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YADACanvas.h; sourceTree = "<group>"; };
+		50ABD8B218593B24001AA432 /* YADACanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YADACanvas.m; sourceTree = "<group>"; };
+		50ABD8B418594F9B001AA432 /* YADASettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YADASettingsViewController.h; sourceTree = "<group>"; };
+		50ABD8B518594F9B001AA432 /* YADASettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YADASettingsViewController.m; sourceTree = "<group>"; };
+		50ABD8C5185980F3001AA432 /* ipad_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_icon.png; sourceTree = "<group>"; };
+		50ABD8C6185980F3001AA432 /* ipad_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad_icon@2x.png"; sourceTree = "<group>"; };
+		50ABD8C7185980F3001AA432 /* iphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_icon.png; sourceTree = "<group>"; };
+		50ABD8C8185980F3001AA432 /* iphone_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone_icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +137,12 @@
 				50ABD885185929F5001AA432 /* Main_iPad.storyboard */,
 				50ABD888185929F5001AA432 /* YADAViewController.h */,
 				50ABD889185929F5001AA432 /* YADAViewController.m */,
+				50ABD8B418594F9B001AA432 /* YADASettingsViewController.h */,
+				50ABD8B518594F9B001AA432 /* YADASettingsViewController.m */,
+				50ABD8B118593B24001AA432 /* YADACanvas.h */,
+				50ABD8B218593B24001AA432 /* YADACanvas.m */,
+				50ABD8AE18593AFF001AA432 /* YADALine.h */,
+				50ABD8AF18593AFF001AA432 /* YADALine.m */,
 				50ABD88B185929F5001AA432 /* Images.xcassets */,
 				50ABD877185929F5001AA432 /* Supporting Files */,
 			);
@@ -129,6 +152,7 @@
 		50ABD877185929F5001AA432 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				50ABD8BC18598004001AA432 /* Images */,
 				50ABD878185929F5001AA432 /* Yada-Info.plist */,
 				50ABD879185929F5001AA432 /* InfoPlist.strings */,
 				50ABD87C185929F5001AA432 /* main.m */,
@@ -153,6 +177,17 @@
 				50ABD89B185929F5001AA432 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50ABD8BC18598004001AA432 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				50ABD8C5185980F3001AA432 /* ipad_icon.png */,
+				50ABD8C6185980F3001AA432 /* ipad_icon@2x.png */,
+				50ABD8C7185980F3001AA432 /* iphone_icon.png */,
+				50ABD8C8185980F3001AA432 /* iphone_icon@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,9 +268,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				50ABD887185929F5001AA432 /* Main_iPad.storyboard in Resources */,
+				50ABD8C9185980F3001AA432 /* ipad_icon.png in Resources */,
+				50ABD8CC185980F3001AA432 /* iphone_icon@2x.png in Resources */,
 				50ABD88C185929F5001AA432 /* Images.xcassets in Resources */,
+				50ABD8CA185980F3001AA432 /* ipad_icon@2x.png in Resources */,
 				50ABD884185929F5001AA432 /* Main_iPhone.storyboard in Resources */,
 				50ABD87B185929F5001AA432 /* InfoPlist.strings in Resources */,
+				50ABD8CB185980F3001AA432 /* iphone_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50ABD8B618594F9B001AA432 /* YADASettingsViewController.m in Sources */,
+				50ABD8B018593AFF001AA432 /* YADALine.m in Sources */,
 				50ABD87D185929F5001AA432 /* main.m in Sources */,
 				50ABD881185929F5001AA432 /* YADAAppDelegate.m in Sources */,
 				50ABD88A185929F5001AA432 /* YADAViewController.m in Sources */,
+				50ABD8B318593B24001AA432 /* YADACanvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +433,6 @@
 		50ABD8A3185929F5001AA432 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yada/Yada-Prefix.pch";
@@ -404,7 +445,6 @@
 		50ABD8A4185929F5001AA432 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Yada/Yada-Prefix.pch";
@@ -475,6 +515,7 @@
 				50ABD8A4185929F5001AA432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50ABD8A5185929F5001AA432 /* Build configuration list for PBXNativeTarget "YadaTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +524,7 @@
 				50ABD8A7185929F5001AA432 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
