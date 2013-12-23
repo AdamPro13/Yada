@@ -43,6 +43,10 @@
     self.blueValueSlider.value = blue;
     
     [self refreshLabels];
+}
+
+- (void)viewDidAppear:(BOOL)animated
+{
     [self updateBrushExample];
 }
 
